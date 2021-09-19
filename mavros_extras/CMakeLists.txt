@@ -89,6 +89,7 @@ add_library(mavros_extras
   src/plugins/vision_speed_estimate.cpp
   src/plugins/wheel_odometry.cpp
   src/plugins/mount_control.cpp
+  src/plugins/px4airspeed.cpp
 )
 add_dependencies(mavros_extras
   ${catkin_EXPORTED_TARGETS}

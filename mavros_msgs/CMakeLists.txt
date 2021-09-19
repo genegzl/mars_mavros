@@ -63,6 +63,7 @@ add_message_files(
   WaypointList.msg
   WaypointReached.msg
   WheelOdomStamped.msg
+  Airspeed.msg  
 )
 
 add_service_files(

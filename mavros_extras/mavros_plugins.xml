@@ -71,4 +71,7 @@
 	<class name="mount_control" type="mavros::extra_plugins::MountControlPlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send Mission command to control a camera or a antenna mount.</description>
 	</class>
+    <class name="airspeed_sensor" type="mavros::extra_plugins::PX4AirspeedPlugin" base_class_type="mavros::plugin::PluginBase">
+       <description>Publish airspeed message data from FCU sensors to companion computer.</description>
+    </class>    
 </library>
