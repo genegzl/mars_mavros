@@ -37,7 +37,7 @@ public:
 
 		airspeed_nh.param<std::string>("frame_id", frame_id, "px4airspeed");
 
-		airspeed_pub = airspeed_nh.advertise<mavros_msgs::Airspeed>("airspeed", 10);
+		airspeed_pub = airspeed_nh.advertise<mavros_msgs::Airspeed>("airspeed", 100);
 
 	}
 
